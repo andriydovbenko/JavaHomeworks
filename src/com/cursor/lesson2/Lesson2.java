@@ -10,6 +10,11 @@ public class Lesson2 {
         //first task:
         DescendingArraySort descendingArraySort = new DescendingArraySort();
         descendingArraySort.transformInDescendingOrder();
+
+        //second task:
+        int[] numbersArray = {1, 4, -45, 12, 8, -22, 0, -3, 7, -89, 7};
+        int sumOfPositive = SumOfThePositiveNumbers.computingPositiveNumbers(numbersArray);
+        System.out.println("Sum of positive digits of array : " + sumOfPositive);
     }
 
 }
