@@ -6,7 +6,7 @@ package com.cursor.lesson1;
  * @author Andrii Dovbenko
  */
 
-public class Main {
+public class Task1 {
 
     //method executes all operators with type: byte
     private static void bytePrimitives(byte e1, byte e2) {
@@ -68,7 +68,7 @@ public class Main {
         System.out.println(e1 + " % " + e2 + " = " + (e1 % e2)+"\n");
     }
 
-    public static void main(String[] args) {
+    public static void runPrimitives(String[] args) {
         byte byte1 = 8;
         byte byte2 = 3;
         bytePrimitives(byte1, byte2);
