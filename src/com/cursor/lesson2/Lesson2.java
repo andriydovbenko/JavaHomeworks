@@ -7,7 +7,9 @@ package com.cursor.lesson2;
 public class Lesson2 {
 
     public static void main(String[] args) {
-        return;
+        //first task:
+        DescendingArraySort descendingArraySort = new DescendingArraySort();
+        descendingArraySort.transformInDescendingOrder();
     }
 
 }

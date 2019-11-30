@@ -6,3 +6,4 @@ package com.cursor.lesson2;
  */
 public class DuplicatesOff {
 }
+
