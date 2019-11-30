@@ -15,6 +15,10 @@ public class Lesson2 {
         int[] numbersArray = {1, 4, -45, 12, 8, -22, 0, -3, 7, -89, 7};
         int sumOfPositive = SumOfThePositiveNumbers.computingPositiveNumbers(numbersArray);
         System.out.println("Sum of positive digits of array : " + sumOfPositive);
+
+        //third task:
+        double averageValue = AverageNumber.computingTheAverageValue(numbersArray);
+        System.out.println("Average of a list of numbers: " + averageValue);
     }
 
 }
