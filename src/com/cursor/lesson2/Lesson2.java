@@ -1,4 +1,7 @@
 package com.cursor.lesson2;
+
+import java.util.Arrays;
+
 /**
  * This is homework to lesson 2.
  * "H/W Control flow constructions"
@@ -19,6 +22,10 @@ public class Lesson2 {
         //third task:
         double averageValue = AverageNumber.computingTheAverageValue(numbersArray);
         System.out.println("Average of a list of numbers: " + averageValue);
-    }
 
+        //last one
+        DuplicatesOff duplicatesOff = new DuplicatesOff();
+        int [] newArray = duplicatesOff.replacingDuplicates();
+        System.out.println("Modified array: "+Arrays.toString(newArray));
+    }
 }
