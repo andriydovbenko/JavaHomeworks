@@ -4,3 +4,10 @@ Why arrays in java initialize with fixed size and can’t be dynamic?
     Developers intended to make some kind of container for primitives or objects which give fast random access
 by letting you use an index position to get any element from it. But they knew there can not exist perfect data
 structures, and they must something to sacrifice. That’s why expand option was removed.
+
+Last one:
+        char x = 'X';
+        int i = 0;
+        System.out.println(true ? x : 0);
+        System.out.println(false ? i : x); <-- we should use varibles of one type.
+    
