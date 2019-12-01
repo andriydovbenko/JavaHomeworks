@@ -8,6 +8,6 @@ structures, and they must something to sacrifice. That’s why expand option was
 Last one:
         char x = 'X';
         int i = 0;
-        System.out.println(true ? x : 0);
+        System.out.println(true ? x : 0);  <-- we should use varibles of one type.
         System.out.println(false ? i : x); <-- we should use varibles of one type.
     
