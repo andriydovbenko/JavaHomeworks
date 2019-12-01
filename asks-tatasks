@@ -1,0 +1,3 @@
+Developers intended to make some kind of container for primitives or objects which give fast random access
+by letting you use an index position to get any element from it . But they knew there were no perfect data 
+structures and they must something to sacrifice. That’s why expand option was removed. 
